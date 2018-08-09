@@ -12,5 +12,6 @@ return $('img:last')
 function ninjaBabySelector(){}
 return $('#baby-ninja')
 function divSelector(){}
-return $('.pic:nth-child(1)')
+return $('.pic:nth-child(1)') + $('.pic:nth-child(2)')
 function firstListItem(){}
+return $('#pic-list  ul:first-child')
