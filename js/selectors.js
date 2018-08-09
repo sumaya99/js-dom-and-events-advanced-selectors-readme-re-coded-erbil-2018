@@ -13,8 +13,8 @@ function ninjaBabySelector(){
 return $('#baby-ninja')
 }
 function divSelector(){
-return $('.pic:nth-child(1)') + $('.pic:nth-child(2)')}
+return $('.pics:nth-child(1)') + $('.pics:nth-child(2)')}
 function firstListItem(){
-return $('#pic-list  li:first-child')}
+return $('#pics-list  li:first-child')}
 
 console.log(divSelector())
